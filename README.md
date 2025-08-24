@@ -1,29 +1,111 @@
 # Stone-Paper-Scissors 🎮
-## About 
--This project is a simple ***Stone-Paper-Scissors*** game written in **C++**.
+## Overview
 
--The player competes against the computer, and the game keeps track of results across multiple rounds.
+- This is a console-based **Stone-Paper-Scissors** game implemented in **C++**.
+  
+- The game allows a human player to play against the computer for a specified number of rounds.
+  
+- The program keeps track of wins, losses, and draws, and displays detailed round-by-round results as well as the final game outcome.
+
+
+---
 
 ## Features
--Play against the computer with three choices: ***Stone, Paper, or Scissor***.
 
--Choose the number of rounds between **1 and 10**.
+- Play multiple rounds of **Stone-Paper-Scissors**.
 
--Clear display of each round result.
+- Randomized computer choices.
 
--Shows the overall game results and the final winner.
+- Round-by-round results display.
 
--Option to replay the game after finishing.
+- Final game summary with winner.
 
-## How to Run
--Download the project, compile it using any C++ compiler, and run the executable file to start the game.
+**Color-coded feedback for the winner:**
+
+- Green: **Player wins**
+
+- Red: **Computer wins**
+
+- Yellow: **Draw**
+
+
+- Option to replay the game.
+
+
+
+---
+
+## Game Rules
+
+ **1. Choices:**
+
+1 : Stone
+
+2 : Paper
+
+3 : Scissor
+
+
+
+**2. Winning Logic:**
+
+- Stone beats Scissor
+
+- Scissor beats Paper
+
+- Paper beats Stone
+
+- Same choices result in a draw
+
+
+
+
+
+---
+
+## Usage
+
+1. Compile the program
+ Using g++ (or any C++ compiler):
+
+g++ -o StonePaperScissors main.cpp
+
+
+**2. Run the game:**
+
+./StonePaperScissors
+
+
+**3. Gameplay Steps:**
+
+- Enter the number of rounds (1–10).
+
+- Choose your move each round: 1 for Stone, 2 for Paper, or 3 for Scissor.
+
+- After all rounds, the game will display:
+
+- Round results
+
+- Total wins/losses/draws
+
+- Final winner
+
+
+- **Choose whether to play again (Y or N).**
+
+
+---
 
 ## Requirements
--A ***C++ compiler*** (such as g++, Visual Studio, or Code::Blocks).
 
--Windows system for colored console output (or modify the color settings if using Linux/Mac).
+- **C++** compiler (supports C++11 or later)
 
-## Example Gameplay
--The player selects ***Stone, Paper, or Scissor***, and the computer randomly chooses one.
--The winner of each round is displayed, and at the end the overall results are shown with the final winner highlighted.
+- Windows OS recommended for color-coded console output
 
+
+
+---
+
+## Author
+
+- **Mohammed Ahmed**
